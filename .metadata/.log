@@ -387,3 +387,117 @@ java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 49978 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-1829678620\testng-customsuite.xml
 java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar org.testng.remote.RemoteTestNG -serport 49978 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-1829678620\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-02 13:17:06.843
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Addressbook-Selenium-Tests]]
+  [Working copy] GroupCreationTests.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class GroupCreationTests
+      void testGroupCreation()
+      void testEmptyGroupCreation()
+  [Working copy] TestBase.java
+    package com.example.tests
+    import org.junit.Assert.fail
+    import java.util.concurrent.TimeUnit
+    import org.openqa.selenium.Alert
+    import org.openqa.selenium.By
+    import org.openqa.selenium.NoAlertPresentException
+    import org.openqa.selenium.NoSuchElementException
+    import org.openqa.selenium.WebDriver
+    import org.openqa.selenium.firefox.FirefoxDriver
+    import org.testng.annotations.AfterClass
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeClass
+    import org.testng.annotations.BeforeTest
+    class TestBase
+      String baseUrl
+      WebDriver driver
+      boolean acceptNextAlert
+      StringBuffer verificationErrors
+      void setUp()
+      void tearDown()
+      void returnToGroupsPage()
+      void submitGroupCreation()
+      void fillGroupForm(GroupData)
+      void initGroupCreation()
+      void openGroupsPage()
+      void openMainPage()
+      boolean isElementPresent(By)
+      boolean isAlertPresent()
+      String closeAlertAndGetItsText()
+  [Working copy] GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+
+!ENTRY org.testng.eclipse 1 0 2014-03-02 13:17:06.939
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50222 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-2042269094\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar org.testng.remote.RemoteTestNG -serport 50222 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-2042269094\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-02 13:23:12.652
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Addressbook-Selenium-Tests]]
+  [Working copy] TestBase.java
+    package com.example.tests
+    import org.junit.Assert.fail
+    import java.util.concurrent.TimeUnit
+    import org.openqa.selenium.Alert
+    import org.openqa.selenium.By
+    import org.openqa.selenium.NoAlertPresentException
+    import org.openqa.selenium.NoSuchElementException
+    import org.openqa.selenium.WebDriver
+    import org.openqa.selenium.firefox.FirefoxDriver
+    import org.testng.annotations.AfterClass
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeClass
+    import org.testng.annotations.BeforeTest
+    class TestBase
+      String baseUrl
+      WebDriver driver
+      boolean acceptNextAlert
+      StringBuffer verificationErrors
+      void setUp()
+      void tearDown()
+      void returnToGroupsPage()
+      void submitGroupCreation()
+      void fillGroupForm(GroupData)
+      void initGroupCreation()
+      void openGroupsPage()
+      void openMainPage()
+      boolean isElementPresent(By)
+      boolean isAlertPresent()
+      String closeAlertAndGetItsText()
+  [Working copy] EmptyGroupCreation.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class EmptyGroupCreation
+      void testEmptyGroupCreation()
+  [Working copy] GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  [Working copy] GroupCreation.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class GroupCreation
+      void testGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-02 13:23:12.974
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50406 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-703649405\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar org.testng.remote.RemoteTestNG -serport 50406 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-703649405\testng-customsuite.xml
