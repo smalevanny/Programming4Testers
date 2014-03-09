@@ -4,12 +4,7 @@
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Addressbook-Selenium-Tests"/>
 <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
 <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
-<listEntry value="com.example.tests.TestBase"/>
-<listEntry value="com.example.tests.GroupCreation"/>
-<listEntry value="com.example.tests.GroupData"/>
-<listEntry value="com.example.tests.ContactCreation"/>
 <listEntry value="com.example.tests.EmptyContactCreation"/>
-<listEntry value="com.example.tests.ContactData"/>
 <listEntry value="com.example.tests.EmptyGroupCreation"/>
 </listAttribute>
 <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>

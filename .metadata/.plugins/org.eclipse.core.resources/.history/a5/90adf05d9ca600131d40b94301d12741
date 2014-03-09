@@ -1,0 +1,20 @@
+package com.example.tests;
+
+import org.testng.annotations.Test;
+
+public class GroupCreation extends TestBase {
+  @Test
+  public void testGroupCreation() throws Exception {
+    app.openMainPage();
+    app.openGroupsPage();
+    app.initGroupCreation();
+    GroupData group = new GroupData();
+    group.name = "Group1";
+    group.header = "Header1";
+    group.footer = "Footer";
+	app.fillGroupForm(this, group);
+    app.submitGroupCreation();
+    app.returnToGroupsPage();
+  }
+
+}

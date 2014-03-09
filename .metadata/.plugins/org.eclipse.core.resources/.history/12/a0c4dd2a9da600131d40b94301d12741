@@ -1,0 +1,39 @@
+package com.example.fw;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.Select;
+
+import com.example.tests.ContactData;
+import com.example.tests.TestBase;
+
+public class ContactHelper extends HelperBase{
+
+	public void fillContactForm(ApplicationManager applicationManager, TestBase testBase, ContactData parameterObject) {
+		ApplicationManager.driver.findElement(By.name("firstname")).clear();
+	    ApplicationManager.driver.findElement(By.name("firstname")).sendKeys(parameterObject.firstname);
+	    ApplicationManager.driver.findElement(By.name("lastname")).clear();
+	    ApplicationManager.driver.findElement(By.name("lastname")).sendKeys(parameterObject.lastname);
+	    ApplicationManager.driver.findElement(By.name("address")).clear();
+	    ApplicationManager.driver.findElement(By.name("address")).sendKeys(parameterObject.address);
+	    ApplicationManager.driver.findElement(By.name("home")).clear();
+	    ApplicationManager.driver.findElement(By.name("home")).sendKeys(parameterObject.homephone);
+	    ApplicationManager.driver.findElement(By.name("mobile")).clear();
+	    ApplicationManager.driver.findElement(By.name("mobile")).sendKeys(parameterObject.mobilephone);
+	    ApplicationManager.driver.findElement(By.name("work")).clear();
+	    ApplicationManager.driver.findElement(By.name("work")).sendKeys(parameterObject.workphone);
+	    ApplicationManager.driver.findElement(By.name("email")).clear();
+	    ApplicationManager.driver.findElement(By.name("email")).sendKeys(parameterObject.email);
+	    ApplicationManager.driver.findElement(By.name("email2")).clear();
+	    ApplicationManager.driver.findElement(By.name("email2")).sendKeys(parameterObject.email2);
+	    new Select(ApplicationManager.driver.findElement(By.name("bday"))).selectByVisibleText(parameterObject.bday);
+	    new Select(ApplicationManager.driver.findElement(By.name("bmonth"))).selectByVisibleText(parameterObject.bmonth);
+	    ApplicationManager.driver.findElement(By.name("byear")).clear();
+	    ApplicationManager.driver.findElement(By.name("byear")).sendKeys(parameterObject.byear);
+	    new Select(ApplicationManager.driver.findElement(By.name("new_group"))).selectByVisibleText(parameterObject.group);
+	    ApplicationManager.driver.findElement(By.name("address2")).clear();
+	    ApplicationManager.driver.findElement(By.name("address2")).sendKeys(parameterObject.address2);
+	    ApplicationManager.driver.findElement(By.name("phone2")).clear();
+	    ApplicationManager.driver.findElement(By.name("phone2")).sendKeys(parameterObject.phone2);
+	}
+
+}

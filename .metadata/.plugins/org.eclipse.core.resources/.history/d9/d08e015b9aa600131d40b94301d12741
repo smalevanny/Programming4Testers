@@ -1,0 +1,146 @@
+package com.example.fw;
+
+import static org.junit.Assert.fail;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import com.example.tests.ContactData;
+import com.example.tests.GroupData;
+import com.example.tests.TestBase;
+
+public class ApplicationManager {
+	public static WebDriver driver;
+	public static String baseUrl;
+	public boolean acceptNextAlert = true;
+	private StringBuffer verificationErrors = new StringBuffer();
+
+	
+	public ApplicationManager() {
+		driver = new FirefoxDriver();
+	    baseUrl = "http://localhost/";
+	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	}
+
+	public void returnToGroupsPage() {
+		TestBase.driver.findElement(By.linkText("group page")).click();
+	}
+
+	public void submitGroupCreation() {
+		TestBase.driver.findElement(By.name("submit")).click();
+	}
+
+	public void fillGroupForm(TestBase testBase, GroupData group) {
+		TestBase.driver.findElement(By.name("group_name")).clear();
+	    TestBase.driver.findElement(By.name("group_name")).sendKeys(group.name);
+	    TestBase.driver.findElement(By.name("group_header")).clear();
+	    TestBase.driver.findElement(By.name("group_header")).sendKeys(group.header);
+	    TestBase.driver.findElement(By.name("group_footer")).clear();
+	    TestBase.driver.findElement(By.name("group_footer")).sendKeys(group.footer);
+	}
+
+	public void initGroupCreation() {
+		TestBase.driver.findElement(By.name("new")).click();
+	}
+
+	public void openGroupsPage() {
+		TestBase.driver.findElement(By.linkText("groups")).click();
+	}
+
+	public void openMainPage() {
+		TestBase.driver.get(TestBase.baseUrl + "/addressbookv4.1.4/");
+	}
+
+	public boolean isAlertPresent() {
+	    try {
+	      TestBase.driver.switchTo().alert();
+	      return true;
+	    } catch (NoAlertPresentException e) {
+	      return false;
+	    }
+	  }
+
+	public boolean isElementPresent(By by) {
+	    try {
+	      TestBase.driver.findElement(by);
+	      return true;
+	    } catch (NoSuchElementException e) {
+	      return false;
+	    }
+	  }
+
+	public String closeAlertAndGetItsText(TestBase testBase) {
+	    try {
+	      Alert alert = TestBase.driver.switchTo().alert();
+	      String alertText = alert.getText();
+	      if (testBase.acceptNextAlert) {
+	        alert.accept();
+	      } else {
+	        alert.dismiss();
+	      }
+	      return alertText;
+	    } finally {
+	      testBase.acceptNextAlert = true;
+	    }
+	  }
+
+	public void returnToMainPage() {
+		TestBase.driver.findElement(By.linkText("home page")).click();
+	}
+
+	public void initContactCreation() {
+		TestBase.driver.findElement(By.linkText("add new")).click();
+	}
+
+	public void submitContactCreation() {
+		TestBase.driver.findElement(By.name("submit")).click();
+	}
+
+	public void fillContactForm(TestBase testBase, ContactData parameterObject) {
+		TestBase.driver.findElement(By.name("firstname")).clear();
+	    TestBase.driver.findElement(By.name("firstname")).sendKeys(parameterObject.firstname);
+	    TestBase.driver.findElement(By.name("lastname")).clear();
+	    TestBase.driver.findElement(By.name("lastname")).sendKeys(parameterObject.lastname);
+	    TestBase.driver.findElement(By.name("address")).clear();
+	    TestBase.driver.findElement(By.name("address")).sendKeys(parameterObject.address);
+	    TestBase.driver.findElement(By.name("home")).clear();
+	    TestBase.driver.findElement(By.name("home")).sendKeys(parameterObject.homephone);
+	    TestBase.driver.findElement(By.name("mobile")).clear();
+	    TestBase.driver.findElement(By.name("mobile")).sendKeys(parameterObject.mobilephone);
+	    TestBase.driver.findElement(By.name("work")).clear();
+	    TestBase.driver.findElement(By.name("work")).sendKeys(parameterObject.workphone);
+	    TestBase.driver.findElement(By.name("email")).clear();
+	    TestBase.driver.findElement(By.name("email")).sendKeys(parameterObject.email);
+	    TestBase.driver.findElement(By.name("email2")).clear();
+	    TestBase.driver.findElement(By.name("email2")).sendKeys(parameterObject.email2);
+	    new Select(TestBase.driver.findElement(By.name("bday"))).selectByVisibleText(parameterObject.bday);
+	    new Select(TestBase.driver.findElement(By.name("bmonth"))).selectByVisibleText(parameterObject.bmonth);
+	    TestBase.driver.findElement(By.name("byear")).clear();
+	    TestBase.driver.findElement(By.name("byear")).sendKeys(parameterObject.byear);
+	    new Select(TestBase.driver.findElement(By.name("new_group"))).selectByVisibleText(parameterObject.group);
+	    TestBase.driver.findElement(By.name("address2")).clear();
+	    TestBase.driver.findElement(By.name("address2")).sendKeys(parameterObject.address2);
+	    TestBase.driver.findElement(By.name("phone2")).clear();
+	    TestBase.driver.findElement(By.name("phone2")).sendKeys(parameterObject.phone2);
+	}
+
+	public void openMainpage() {
+		TestBase.driver.get(TestBase.baseUrl + "/addressbookv4.1.4/");
+	}
+
+	public void stop() {
+		driver.quit();
+	    String verificationErrorString = verificationErrors.toString();
+	    if (!"".equals(verificationErrorString)) {
+	      fail(verificationErrorString);
+	    }
+	}
+
+}

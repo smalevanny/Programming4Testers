@@ -1,0 +1,14 @@
+package com.example.tests;
+
+import org.testng.annotations.Test;
+
+public class ContactRemoval extends TestBase {
+	@Test
+	public void deleteSomeContact() {
+		app.getNavigationHelper().openMainPage();
+	    app.getContactHelper().initContactDeletion(1);
+	    app.getContactHelper().submitContactDeletion();
+	    app.getNavigationHelper().returnToMainPage();
+	}
+
+}

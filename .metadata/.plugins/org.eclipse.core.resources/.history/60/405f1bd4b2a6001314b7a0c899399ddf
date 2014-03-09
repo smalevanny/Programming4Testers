@@ -1,0 +1,44 @@
+package com.example.fw;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.Select;
+
+import com.example.tests.ContactData;
+
+public class ContactHelper extends HelperBase{
+
+	public ContactHelper(ApplicationManager manager) {
+		super(manager);
+	}
+
+	public void fillContactForm(ContactData parameterObject) {
+		type(By.name("firstname"), parameterObject.firstname);
+		type(By.name("lastname"), parameterObject.lastname);
+	    type(By.name("address"), parameterObject.address);
+	    type(By.name("home"), parameterObject.homephone);
+	    type(By.name("mobile"), parameterObject.mobilephone);
+	    type(By.name("work"), parameterObject.workphone);
+	    type(By.name("email"), parameterObject.email);
+	    type(By.name("email2"), parameterObject.email2);
+	    String text = parameterObject.bday;
+		selectByText(By.name("bday"), text);
+	    new Select(driver.findElement(By.name("bmonth"))).selectByVisibleText(parameterObject.bmonth);
+	    type(By.name("byear"), parameterObject.byear);
+	    new Select(driver.findElement(By.name("new_group"))).selectByVisibleText(parameterObject.group);
+	    type(By.name("address2"), parameterObject.address2);
+	    type(By.name("phone2"), parameterObject.phone2);
+	}
+
+	private void selectByText(By locator, String text) {
+		new Select(driver.findElement(locator)).selectByVisibleText(text);
+	}
+
+	public void submitContactCreation() {
+		click(By.name("submit"));
+	}
+
+	public void initContactCreation() {
+		click(By.linkText("add new"));
+	}
+
+}

@@ -1,0 +1,12 @@
+{
+  "D:\\Development\\GitHub\\Programming4Testers\\Addressbook-Selenium-Tests\\src": {
+    "location": "D:\\Development\\GitHub\\Programming4Testers\\Addressbook-Selenium-Tests\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Development\\GitHub\\Programming4Testers\\Addressbook-Selenium-Tests\\src\u0027. Skipped."
+  },
+  "C:\\Program Files\\Java\\jre7\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:ovrm:1.0.0",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "status": "RESOLVED"
+  }
+}

@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 public class EmptyContactCreation extends TestBase {
   @Test
   public void testContactCreation() throws Exception {
-    openMainpage();
-    initContactCreation();
-    submitContactCreation();
-    returnToMainPage();
+    app.getNavigationHelper().openMainPage();
+    app.getContactHelper().initContactCreation();
+    app.getContactHelper().submitContactCreation();
+    app.getNavigationHelper().returnToMainPage();
   }
 }
