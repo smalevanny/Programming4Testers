@@ -1,0 +1,13 @@
+package com.example.examples;
+
+public class StringSplit {
+	
+public static void main (String[] args) {
+	String fullname = "Ivan ";
+	if (fullname.endsWith(" ")) {
+		initials[1] = "";
+	}
+	String[] initials = fullname.split(" ");
+	System.out.println(initials[0]);
+	System.out.println(initials[1]);
+}

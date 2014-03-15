@@ -143,6 +143,19 @@
     "javaRuntime": true
   },
   {
+    "symbolicName": "org.yaml.snakeyaml",
+    "version": {
+      "major": 1,
+      "minor": 6,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "34a4bd7bc4b83736af54c6cd1d63a2d2a02dccda",
+    "jarFileModificationDate": "2013-09-14T07:23:46+04:00",
+    "location": "C:\\Users\\User\\Desktop\\ProgrammingForTesters\\eclipse\\plugins\\org.testng.eclipse_6.8.6.20141201_2240\\lib\\testng.jar",
+    "javaRuntime": false
+  },
+  {
     "symbolicName": "jre",
     "version": {
       "major": 1,

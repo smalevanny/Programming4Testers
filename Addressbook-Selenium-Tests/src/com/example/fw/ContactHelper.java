@@ -1,8 +1,14 @@
 package com.example.fw;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.jasper.tagplugins.jstl.core.If;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import com.example.tests.ContactData;
+import com.example.tests.GroupData;
 
 public class ContactHelper extends HelperBase{
 
@@ -43,8 +49,7 @@ public class ContactHelper extends HelperBase{
 	}
 
 	public void initContactUpdate(int index) {
-		index = index+1; 
-		click(By.xpath("//tr[" + index + "]/td[7]"));
+		click(By.xpath("//tr[" + (index+2) + "]/td[7]"));
 		
 	}
 
@@ -53,5 +58,21 @@ public class ContactHelper extends HelperBase{
 		
 	}
 
-
+	public List<ContactData> getContacts() {
+		List<ContactData> contacts = new ArrayList<ContactData>();
+		List<WebElement> checkboxes = driver.findElements(By.name("selected[]"));
+		for (WebElement checkbox : checkboxes) {
+			ContactData contact = new ContactData();
+			contact.lastname = "";
+			String title = checkbox.getAttribute("title");	
+			String fullname = title.substring("Select (".length(), title.length() - ")".length());
+			String[] initials = fullname.split(" ");
+			if (!fullname.endsWith(" ")) {
+				contact.lastname = initials[1];
+			}
+			contacts.add(contact);
+		}
+		return contacts;
+	}
+	
 }

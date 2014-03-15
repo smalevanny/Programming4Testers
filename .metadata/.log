@@ -2610,3 +2610,942 @@ Created Time: 2014-03-09 13:29:47.442
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 50731 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--699829208\testng-customsuite.xml
 java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 50731 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--699829208\testng-customsuite.xml
+!SESSION 2014-03-13 08:13:55.107 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.testng.eclipse 1 0 2014-03-13 08:15:32.865
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Addressbook-Selenium-Tests]]
+  GroupRemoval.java (not open)
+  EmptyContactCreation.java (not open)
+  [Working copy] TestBase.java
+    package com.example.tests
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  ContactRemoval.java (not open)
+  ContactModification.java (not open)
+  ContactCreation.java (not open)
+  GroupCreation.java (not open)
+  EmptyGroupCreation.java (not open)
+  GroupModification.java (not open)
+  GroupData.java (not open)
+  ContactData.java (not open)
+
+!ENTRY org.testng.eclipse 1 0 2014-03-13 08:15:34.564
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49367 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1109142942\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 49367 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1109142942\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-13 08:16:55.999
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:ContactCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import org.testng.annotations.Test
+  class ContactCreation
+    void testContactCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-13 08:16:56.173
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49373 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-1058421803\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 49373 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-1058421803\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-13 08:17:34.198
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:src [in Addressbook-Selenium-Tests]
+  <default> (...)
+  com (...)
+  com.example (...)
+  com.example.fw (...)
+  com.example.tests (...)
+
+!ENTRY org.testng.eclipse 1 0 2014-03-13 08:17:34.199
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:<default> [in src [in Addressbook-Selenium-Tests]]
+
+!ENTRY org.testng.eclipse 1 0 2014-03-13 08:17:34.200
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com [in src [in Addressbook-Selenium-Tests]]
+
+!ENTRY org.testng.eclipse 1 0 2014-03-13 08:17:34.201
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example [in src [in Addressbook-Selenium-Tests]]
+
+!ENTRY org.testng.eclipse 1 0 2014-03-13 08:17:34.203
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.fw [in src [in Addressbook-Selenium-Tests]]
+  GroupHelper.java (not open)
+  ContactHelper.java
+    package com.example.fw
+    import org.openqa.selenium.By
+    import com.example.tests.ContactData
+    class ContactHelper
+      ContactHelper(ApplicationManager)
+      void fillContactForm(ContactData)
+      void submitContactCreation()
+      void initContactCreation()
+      void submitContactDeletion()
+      void initContactUpdate(int)
+      void submitContactUpdate()
+  NavigationHelper.java
+    package com.example.fw
+    import org.openqa.selenium.By
+    class NavigationHelper
+      NavigationHelper(ApplicationManager)
+      void openMainPage()
+      void returnToMainPage()
+  HelperBase.java
+    package com.example.fw
+    import org.openqa.selenium.Alert
+    import org.openqa.selenium.By
+    import org.openqa.selenium.NoAlertPresentException
+    import org.openqa.selenium.NoSuchElementException
+    import org.openqa.selenium.WebDriver
+    import org.openqa.selenium.support.ui.Select
+    import com.example.tests.TestBase
+    class HelperBase
+      ApplicationManager manager
+      WebDriver driver
+      boolean acceptNextAlert
+      HelperBase(ApplicationManager)
+      boolean isAlertPresent()
+      boolean isElementPresent(By)
+      void selectByText(By, String)
+      String closeAlertAndGetItsText(TestBase)
+      void type(By, String)
+      void click(By)
+  ApplicationManager.java
+    package com.example.fw
+    import java.util.concurrent.TimeUnit
+    import org.openqa.selenium.WebDriver
+    import org.openqa.selenium.firefox.FirefoxDriver
+    class ApplicationManager
+      WebDriver driver
+      String baseUrl
+      NavigationHelper navigationHelper
+      GroupHelper groupHelper
+      ContactHelper contactHelper
+      ApplicationManager()
+      void stop()
+      NavigationHelper getNavigationHelper()
+      GroupHelper getGroupHelper()
+      ContactHelper getContactHelper()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-13 08:17:34.239
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Addressbook-Selenium-Tests]]
+  GroupRemoval.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class GroupRemoval
+      void deleteSomeGroup()
+  EmptyContactCreation.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class EmptyContactCreation
+      void testContactCreation()
+  [Working copy] TestBase.java
+    package com.example.tests
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  ContactRemoval.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class ContactRemoval
+      void deleteSomeContact()
+  ContactModification.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class ContactModification
+      void modifySomeContact()
+  ContactCreation.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class ContactCreation
+      void testContactCreation()
+  GroupCreation.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class GroupCreation
+      void testGroupCreation()
+  EmptyGroupCreation.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class EmptyGroupCreation
+      void testEmptyGroupCreation()
+  GroupModification.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class GroupModification
+      void modifySomeGroup()
+  GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  ContactData.java
+    package com.example.tests
+    class ContactData
+      String firstname
+      String lastname
+      String address
+      String homephone
+      String mobilephone
+      String workphone
+      String email
+      String email2
+      String bday
+      String bmonth
+      String byear
+      String group
+      String address2
+      String phone2
+      ContactData()
+      ContactData(String, String, String, String, String, String, String, String, String, String, String, String, String, String)
+
+!ENTRY org.testng.eclipse 1 0 2014-03-13 08:17:34.404
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49469 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--417059580\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 49469 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--417059580\testng-customsuite.xml
+!SESSION 2014-03-15 10:50:46.574 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 11:30:11.172
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import java.util.List
+  import org.testng.annotations.Test
+  import org.testng.Assert.assertEquals
+  class GroupCreation
+    void testGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 11:30:50.569
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import java.util.List
+  import org.testng.annotations.Test
+  import org.testng.Assert.assertEquals
+  class GroupCreation
+    void testGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 11:30:51.194
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49564 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1368627968\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 49564 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1368627968\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 11:59:51.136
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  import org.testng.Assert.assertEquals
+  class GroupCreation
+    void testGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 11:59:51.230
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49633 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--591569295\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 49633 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--591569295\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:04:37.958
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] EmptyGroupCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  class EmptyGroupCreation
+    void testEmptyGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:04:37.959
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  import org.testng.Assert.assertEquals
+  class GroupCreation
+    void testGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:04:38.024
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49695 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-426489975\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 49695 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-426489975\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:10:43.423
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupRemoval.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  class GroupRemoval
+    void deleteSomeGroup()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:10:43.481
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49804 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-780996953\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 49804 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-780996953\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:14:57.710
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupModification.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  class GroupModification
+    void modifySomeGroup()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:14:57.793
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49856 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1663176536\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 49856 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1663176536\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:16:20.384
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:EmptyGroupCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  class EmptyGroupCreation
+    void testEmptyGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:16:20.385
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  import org.testng.Assert.assertEquals
+  class GroupCreation
+    void testGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:16:20.386
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupModification.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  class GroupModification
+    void modifySomeGroup()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:16:20.387
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:GroupRemoval.java (not open) [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:16:20.485
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49914 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-2688799\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 49914 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-2688799\testng-customsuite.xml
+
+!ENTRY org.eclipse.jface 4 2 2014-03-15 12:23:57.655
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:96)
+	at org.eclipse.ui.texteditor.EditorStatusLine$StatusLineClearer.selectionChanged(EditorStatusLine.java:41)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:164)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:162)
+	at org.eclipse.jface.text.TextViewer.fireSelectionChanged(TextViewer.java:2738)
+	at org.eclipse.jface.text.TextViewer.selectionChanged(TextViewer.java:2717)
+	at org.eclipse.jface.text.TextViewer.setSelectedRange(TextViewer.java:2402)
+	at org.eclipse.jface.text.TextViewer$ViewerState.restore(TextViewer.java:1237)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5124)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5099)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5184)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5158)
+	at org.eclipse.jface.text.TextViewer$RewriteTarget.setRedraw(TextViewer.java:1067)
+	at org.eclipse.jface.text.TextViewer$DocumentRewriteSessionListener.documentRewriteSessionChanged(TextViewer.java:1478)
+	at org.eclipse.jface.text.AbstractDocument.fireRewriteSessionChanged(AbstractDocument.java:1559)
+	at org.eclipse.jface.text.AbstractDocument.stopRewriteSession(AbstractDocument.java:1648)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.stopRewriteSession(SynchronizableDocument.java:113)
+	at org.eclipse.ltk.core.refactoring.TextChange.performEdits(TextChange.java:281)
+	at org.eclipse.ltk.core.refactoring.TextFileChange.access$0(TextFileChange.java:1)
+	at org.eclipse.ltk.core.refactoring.TextFileChange$1.run(TextFileChange.java:275)
+	at org.eclipse.ui.internal.editors.text.UISynchronizationContext.run(UISynchronizationContext.java:34)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.execute(TextFileBufferManager.java:629)
+	at org.eclipse.ltk.core.refactoring.TextFileChange.performEdits(TextFileChange.java:287)
+	at org.eclipse.ltk.core.refactoring.TextChange.perform(TextChange.java:238)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:185)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.AddImportCorrectionProposal.performChange(AddImportCorrectionProposal.java:49)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.apply(CUCorrectionProposal.java:184)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:945)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:891)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$27(CompletionProposalPopup.java:887)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$5.widgetDefaultSelected(CompletionProposalPopup.java:667)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:119)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1029)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:923)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:43:36.655
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import java.util.List
+  import org.testng.annotations.Test
+  import org.testng.Assert.assertEquals
+  class ContactCreation
+    void testContactCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:43:36.726
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50130 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--289002894\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 50130 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--289002894\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:47:15.319
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import java.util.List
+  import org.testng.annotations.Test
+  import org.testng.Assert.assertEquals
+  class ContactCreation
+    void testContactCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 12:47:15.396
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50284 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-1445535448\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 50284 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-1445535448\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 13:21:04.984
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  import org.testng.Assert.assertEquals
+  class ContactCreation
+    void testContactCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 13:21:05.054
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50723 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--2043718095\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 50723 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--2043718095\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 13:28:49.207
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  import org.testng.Assert.assertEquals
+  class ContactCreation
+    void testContactCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 13:28:49.307
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50763 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-1694387848\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 50763 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-1694387848\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 13:45:24.222
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  import org.testng.Assert.assertEquals
+  class ContactCreation
+    void testContactCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 13:45:24.355
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50794 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-1350603456\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 50794 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-1350603456\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 13:47:44.599
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  import org.testng.Assert.assertEquals
+  class ContactCreation
+    void testContactCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 13:47:44.714
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50833 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1670244049\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 50833 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1670244049\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:05:12.360
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  import org.testng.Assert.assertEquals
+  class ContactCreation
+    void testContactCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:05:12.447
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51170 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-2007619351\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 51170 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-2007619351\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:06:25.815
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  import org.testng.Assert.assertEquals
+  class ContactCreation
+    void testContactCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:06:25.884
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51199 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1784173004\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 51199 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1784173004\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:11:39.848
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  import org.testng.Assert.assertEquals
+  class ContactCreation
+    void testContactCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:11:39.943
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51350 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--2127360801\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 51350 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--2127360801\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:20:09.439
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  import org.testng.Assert.assertEquals
+  class ContactCreation
+    void testContactCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:20:09.523
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51428 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-647383681\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 51428 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-647383681\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:28:02.655
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] EmptyContactCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  class EmptyContactCreation
+    void testContactCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:28:02.722
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51585 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1527494582\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 51585 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1527494582\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:28:59.336
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] EmptyContactCreation.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  class EmptyContactCreation
+    void testContactCreation()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:28:59.394
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51677 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--2047643923\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 51677 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--2047643923\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:33:01.192
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactRemoval.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  class ContactRemoval
+    void deleteSomeContact()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:33:01.261
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51811 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1969987586\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 51811 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1969987586\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:34:52.712
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactRemoval.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  class ContactRemoval
+    void deleteSomeContact()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:34:52.785
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51866 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1994242091\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 51866 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--1994242091\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:37:49.239
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactRemoval.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  class ContactRemoval
+    void deleteSomeContact()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:37:49.318
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51927 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--919224660\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 51927 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--919224660\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:40:21.503
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactRemoval.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  class ContactRemoval
+    void deleteSomeContact()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:40:21.580
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51989 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-917428671\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 51989 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-917428671\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:43:07.664
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactModification.java [in com.example.tests [in src [in Addressbook-Selenium-Tests]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  class ContactModification
+    void modifySomeContact()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:43:07.739
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52079 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-12128189\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 52079 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse-12128189\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:43:37.376
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:src [in Addressbook-Selenium-Tests]
+  <default> (...)
+  com (...)
+  com.example (...)
+  com.example.fw (...)
+  com.example.tests (...)
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:43:37.377
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:<default> [in src [in Addressbook-Selenium-Tests]]
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:43:37.379
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com [in src [in Addressbook-Selenium-Tests]]
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:43:37.380
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example [in src [in Addressbook-Selenium-Tests]]
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:43:37.382
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.fw [in src [in Addressbook-Selenium-Tests]]
+  GroupHelper.java
+    package com.example.fw
+    import java.util.ArrayList
+    import java.util.List
+    import org.openqa.selenium.By
+    import org.openqa.selenium.WebElement
+    import com.example.tests.GroupData
+    class GroupHelper
+      GroupHelper(ApplicationManager)
+      void initGroupCreation()
+      void fillGroupForm(GroupData)
+      void submitGroupCreation()
+      void returnToGroupsPage()
+      void openGroupsPage()
+      void deleteGroup(int)
+      void selectGroupByIndex(int)
+      void initGroupModification(int)
+      void submitGroupModification()
+      List<GroupData> getGroups()
+  ContactHelper.java
+    package com.example.fw
+    import java.util.ArrayList
+    import java.util.List
+    import org.apache.jasper.tagplugins.jstl.core.If
+    import org.openqa.selenium.By
+    import org.openqa.selenium.WebElement
+    import com.example.tests.ContactData
+    import com.example.tests.GroupData
+    class ContactHelper
+      ContactHelper(ApplicationManager)
+      void fillContactForm(ContactData)
+      void submitContactCreation()
+      void initContactCreation()
+      void submitContactDeletion()
+      void initContactUpdate(int)
+      void submitContactUpdate()
+      List<ContactData> getContacts()
+  NavigationHelper.java
+    package com.example.fw
+    import org.openqa.selenium.By
+    class NavigationHelper
+      NavigationHelper(ApplicationManager)
+      void openMainPage()
+      void returnToMainPage()
+  HelperBase.java
+    package com.example.fw
+    import org.openqa.selenium.Alert
+    import org.openqa.selenium.By
+    import org.openqa.selenium.NoAlertPresentException
+    import org.openqa.selenium.NoSuchElementException
+    import org.openqa.selenium.WebDriver
+    import org.openqa.selenium.support.ui.Select
+    import com.example.tests.TestBase
+    class HelperBase
+      ApplicationManager manager
+      WebDriver driver
+      boolean acceptNextAlert
+      HelperBase(ApplicationManager)
+      boolean isAlertPresent()
+      boolean isElementPresent(By)
+      void selectByText(By, String)
+      String closeAlertAndGetItsText(TestBase)
+      void type(By, String)
+      void click(By)
+  ApplicationManager.java
+    package com.example.fw
+    import java.util.concurrent.TimeUnit
+    import org.openqa.selenium.WebDriver
+    import org.openqa.selenium.firefox.FirefoxDriver
+    class ApplicationManager
+      WebDriver driver
+      String baseUrl
+      NavigationHelper navigationHelper
+      GroupHelper groupHelper
+      ContactHelper contactHelper
+      ApplicationManager()
+      void stop()
+      NavigationHelper getNavigationHelper()
+      GroupHelper getGroupHelper()
+      ContactHelper getContactHelper()
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:43:37.384
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in Addressbook-Selenium-Tests]]
+  GroupRemoval.java
+    package com.example.tests
+    import org.testng.Assert.assertEquals
+    import java.util.Collections
+    import java.util.List
+    import org.testng.annotations.Test
+    class GroupRemoval
+      void deleteSomeGroup()
+  EmptyContactCreation.java (not open)
+  TestBase.java
+    package com.example.tests
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  [Working copy] ContactRemoval.java
+    package com.example.tests
+    import org.testng.Assert.assertEquals
+    import java.util.Collections
+    import java.util.List
+    import org.testng.annotations.Test
+    class ContactRemoval
+      void deleteSomeContact()
+  [Working copy] ContactModification.java
+    package com.example.tests
+    import org.testng.Assert.assertEquals
+    import java.util.Collections
+    import java.util.List
+    import org.testng.annotations.Test
+    class ContactModification
+      void modifySomeContact()
+  [Working copy] ContactCreation.java
+    package com.example.tests
+    import java.util.Collections
+    import java.util.List
+    import org.testng.annotations.Test
+    import org.testng.Assert.assertEquals
+    class ContactCreation
+      void testContactCreation()
+  GroupCreation.java (not open)
+  EmptyGroupCreation.java (not open)
+  GroupModification.java
+    package com.example.tests
+    import org.testng.Assert.assertEquals
+    import java.util.Collections
+    import java.util.List
+    import org.testng.annotations.Test
+    class GroupModification
+      void modifySomeGroup()
+  GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+      String toString()
+      int hashCode()
+      boolean equals(Object)
+      int compareTo(GroupData)
+  ContactData.java
+    package com.example.tests
+    class ContactData
+      String firstname
+      String lastname
+      String address
+      String homephone
+      String mobilephone
+      String workphone
+      String email
+      String email2
+      String bday
+      String bmonth
+      String byear
+      String group
+      String address2
+      String phone2
+      ContactData()
+      ContactData(String, String, String, String, String, String, String, String, String, String, String, String, String, String)
+      String toString()
+      int hashCode()
+      boolean equals(Object)
+      int compareTo(ContactData)
+
+!ENTRY org.testng.eclipse 1 0 2014-03-15 15:43:37.642
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52175 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--391812184\testng-customsuite.xml
+java -ea -classpath /C:/Users/User/Desktop/ProgrammingForTesters/eclipse/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar:D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\bin:C:\Users\User\Desktop\ProgrammingForTesters\selenium-2.40.0\selenium-server-standalone-2.40.0.jar:C:\Users\User\Desktop\ProgrammingForTesters\eclipse\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar org.testng.remote.RemoteTestNG -serport 52175 -d D:\Development\GitHub\Programming4Testers\Addressbook-Selenium-Tests\test-output C:\Users\User\AppData\Local\Temp\testng-eclipse--391812184\testng-customsuite.xml
