@@ -1,0 +1,35 @@
+package com.example.tests;
+
+import static org.testng.Assert.assertEquals;
+
+import java.util.Collections;
+import java.util.Random;
+
+import org.testng.annotations.Test;
+
+import com.example.utils.SortedListOf;
+
+public class ContactModification extends TestBase {
+	@Test(dataProvider = "randomValidContactGenerator")
+	public void modifySomeContact(ContactData contact) {
+		
+		//save old list
+		SortedListOf<ContactData> oldList = app.getContactHelper().getContacts();
+	    
+	    // Randomize contact index
+	    Random rnd = new Random();
+	    int index = rnd.nextInt(oldList.size()-1);
+	    
+	    //actions
+		app.getContactHelper().modifyContact(index, contact);
+		
+		 //save new list
+		SortedListOf<ContactData> newList = app.getContactHelper().getContacts();
+	    
+	    //compare states
+	    oldList.remove(index);
+	    oldList.add(contact);
+	    Collections.sort(oldList);
+	    assertEquals(oldList, newList);
+	}
+}

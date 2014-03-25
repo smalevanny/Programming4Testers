@@ -1,14 +1,12 @@
 package com.example.fw;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.jasper.tagplugins.jstl.core.If;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import com.example.tests.ContactData;
-import com.example.tests.GroupData;
+import com.example.utils.SortedListOf;
 
 public class ContactHelper extends HelperBase{
 
@@ -16,63 +14,113 @@ public class ContactHelper extends HelperBase{
 		super(manager);
 	}
 
-	public void fillContactForm(ContactData parameterObject) {
-		type(By.name("firstname"), parameterObject.firstname);
-		type(By.name("lastname"), parameterObject.lastname);
-	    type(By.name("address"), parameterObject.address);
-	    type(By.name("home"), parameterObject.homephone);
-	    type(By.name("mobile"), parameterObject.mobilephone);
-	    type(By.name("work"), parameterObject.workphone);
-	    type(By.name("email"), parameterObject.email);
-	    type(By.name("email2"), parameterObject.email2);
-	    selectByText(By.name("bday"), parameterObject.bday);
-	    selectByText(By.name("bmonth"), parameterObject.bmonth);
-	    type(By.name("byear"), parameterObject.byear);
-	    selectByText(By.name("new_group"), parameterObject.group);
-	    type(By.name("address2"), parameterObject.address2);
-	    type(By.name("phone2"), parameterObject.phone2);
+	public ContactHelper createContact(ContactData contact) {
+		manager.navigateTo().mainPage();
+		initContactCreation();
+		fillContactForm(contact);
+	    submitContactCreation();
+	    returnToMainPage();
+	    rebuildCashe();
+		return this;
 	}
-
-	public void submitContactCreation() {
-		click(By.name("submit"));
-	}
-
-	public void initContactCreation() {
-		click(By.linkText("add new"));
-	}
-
 	
-
-	public void submitContactDeletion() {
-		click(By.xpath("//input[@value='Delete']"));
-		
+	public ContactHelper modifyContact(int index, ContactData contact) {
+		initContactUpdate(index);
+		fillContactForm(contact);
+		submitContactUpdate();
+		returnToMainPage();
+		rebuildCashe();
+		return this;
 	}
-
-	public void initContactUpdate(int index) {
-		click(By.xpath("//tr[" + (index+2) + "]/td[7]"));
-		
+	
+	public ContactHelper deleteContact(int index) {
+		initContactUpdate(index);
+	    submitContactDeletion();
+	    returnToMainPage();
+	    rebuildCashe();
+		return this;
 	}
-
-	public void submitContactUpdate() {
-		click(By.xpath("//input[@value='Update']"));
-		
+	
+	private SortedListOf<ContactData> cashedContacts;
+	
+	public SortedListOf<ContactData> getContacts() {
+		if (cashedContacts == null) {
+			rebuildCashe();
+		}
+		return cashedContacts;
 	}
-
-	public List<ContactData> getContacts() {
-		List<ContactData> contacts = new ArrayList<ContactData>();
+	
+	private void rebuildCashe() {
+		cashedContacts = new SortedListOf<ContactData>();
+		manager.navigateTo().mainPage();
 		List<WebElement> checkboxes = driver.findElements(By.name("selected[]"));
 		for (WebElement checkbox : checkboxes) {
-			ContactData contact = new ContactData();
-			contact.lastname = "";
+			String name = "";
 			String title = checkbox.getAttribute("title");	
 			String fullname = title.substring("Select (".length(), title.length() - ")".length());
 			String[] initials = fullname.split(" ");
 			if (!fullname.endsWith(" ")) {
-				contact.lastname = initials[1];
+				name = initials[1];
 			}
-			contacts.add(contact);
+			cashedContacts.add(new ContactData().withLastName(name));
 		}
-		return contacts;
+	}
+
+//------------------------------------------------------------------------------------------------------
+
+	
+
+	public ContactHelper fillContactForm(ContactData contact) {
+		type(By.name("firstname"), contact.getFirstname());
+		type(By.name("lastname"), contact.getLastname());
+	    type(By.name("address"), contact.getAddress());
+	    type(By.name("home"), contact.getHomephone());
+	    type(By.name("mobile"), contact.getMobilephone());
+	    type(By.name("work"), contact.getWorkphone());
+	    type(By.name("email"), contact.getEmail());
+	    type(By.name("email2"), contact.getEmail2());
+	    selectByText(By.name("bday"), contact.getBday());
+	    selectByText(By.name("bmonth"), contact.getBmonth());
+	    type(By.name("byear"), contact.getByear());
+	    selectByText(By.name("new_group"), contact.getGroup());
+	    type(By.name("address2"), contact.getAddress2());
+	    type(By.name("phone2"), contact.getPhone2());
+	    return this;
+	}
+
+	public ContactHelper submitContactCreation() {
+		click(By.name("submit"));
+		cashedContacts = null;
+		return this;
+	}
+
+	public ContactHelper initContactCreation() {
+		click(By.linkText("add new"));
+		return this;
+	}
+
+	
+
+	public ContactHelper submitContactDeletion() {
+		click(By.xpath("//input[@value='Delete']"));
+		cashedContacts = null;
+		return this;
+	}
+
+	public ContactHelper initContactUpdate(int index) {
+		click(By.xpath("//tr[" + (index+2) + "]/td[7]"));
+		return this;
+	}
+
+	public ContactHelper submitContactUpdate() {
+		click(By.xpath("//input[@value='Update']"));
+		cashedContacts = null;
+		return this;
+	}
+
+	
+	public void returnToMainPage() {
+		click(By.linkText("home page"));
 	}
 	
 }

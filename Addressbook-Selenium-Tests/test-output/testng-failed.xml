@@ -3,13 +3,17 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.example.tests.GroupModification">
+      <class name="com.example.tests.ContactCreationValid">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="modifySomeGroup"/>
         </methods>
-      </class> <!-- com.example.tests.GroupModification -->
+      </class> <!-- com.example.tests.ContactCreationValid -->
+      <class name="com.example.tests.ContactRemoval">
+        <methods>
+          <include name="deleteSomeContact"/>
+        </methods>
+      </class> <!-- com.example.tests.ContactRemoval -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -87,3 +87,9 @@ org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.a
 2014-03-09 11:35:07,574 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
 2014-03-09 12:36:56,001 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
 2014-03-15 10:58:07,463 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2014-03-22 09:44:55,295 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2014-03-24 11:09:44,487 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2014-03-25 10:42:51,327 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2014-03-25 10:42:52,294 [Worker-5] WARN  o.e.r.i.rcp.repo.ModelRepository - 'remote-models (http://download.eclipse.org/recommenders/models/juno/, releases+snapshots)' did not send ETAG header for 'org.eclipse.recommenders:index:zip:0.0.0'.
+2014-03-25 10:42:53,448 [pool-6-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2014-03-25 10:42:53,511 [Worker-5] WARN  o.e.r.i.rcp.repo.ModelRepository - 'remote-models (http://download.eclipse.org/recommenders/models/juno/, releases+snapshots)' did not send ETAG header for 'org.eclipse.recommenders:index:zip:0.0.0'.

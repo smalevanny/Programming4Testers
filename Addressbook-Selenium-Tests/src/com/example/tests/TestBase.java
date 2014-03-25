@@ -28,34 +28,35 @@ public class TestBase {
 	public Iterator<Object[]> randomValidGroupGenerator () {
 		List<Object[]> list = new ArrayList<Object[]>();
 		for (int i = 0; i < 5; i++) {
-		GroupData group = new GroupData();
-		group.name = generateRandomString();
-		group.header = generateRandomString();
-		group.footer = generateRandomString();
+		GroupData group = new GroupData()
+		.withName(generateRandomString())
+		.withHeader(generateRandomString())
+		.withFooter(generateRandomString());
 		list.add(new Object[] {group});
 		}
 		return list.iterator();
 	}
 	
 	
+
 	@DataProvider
 	public Iterator<Object[]> randomValidContactGenerator () {
 		List<Object[]> list = new ArrayList<Object[]>();
 		for (int i = 0; i < 5; i++) {
-		ContactData contact = new ContactData();
-		contact.firstname		= generateRandomString();
-	    contact.lastname		= generateRandomString();
-	    contact.address			= generateRandomString();
-	    contact.homephone		= generateRandomPhone();
-	    contact.mobilephone		= generateRandomPhone();
-	    contact.workphone		= generateRandomPhone();
-	    contact.email			= generateRandomString() + "@email.ru";
-	    contact.email2			= generateRandomString() + "@email.ru";
-	    contact.bday			= "1";
-	    contact.bmonth			= "January";
-	    contact.byear			= "1980";
-	    contact.address			= generateRandomString();
-	    contact.phone2			= generateRandomPhone();
+		ContactData contact = new ContactData()
+		.withFirstName(generateRandomString())
+		.withLastName(generateRandomString())
+		.withAddress(generateRandomString())
+		.withHomePhone(generateRandomPhone())
+		.withMobilePhone(generateRandomPhone())
+		.withWorkPhone(generateRandomPhone())
+		.withEMail(generateRandomString() + "@email.ru")
+		.withEMail2(generateRandomString() + "@email.ru")
+		.withBDay("1")
+		.withBMonth("January")
+		.withBYear("1980")
+		.withAddress2(generateRandomString())
+		.withPhone2(generateRandomPhone());
 		list.add(new Object[] {contact});
 		}
 		return list.iterator();

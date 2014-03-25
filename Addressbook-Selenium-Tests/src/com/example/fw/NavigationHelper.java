@@ -9,12 +9,24 @@ public class NavigationHelper extends HelperBase{
 		
 	}
 
-	public void openMainPage() {
-		driver.get(manager.baseUrl + "/addressbookv4.1.4/");
+	public void mainPage() {
+		if (! onMainPage()) {
+			click(By.linkText("home"));
+		}
 	}
 
-	public void returnToMainPage() {
-		click(By.linkText("home page"));
+	private boolean onMainPage() {	
+		return (driver.findElements(By.id("maintable")).size() > 0);
+	}
+	
+	
+	public void groupsPage() {
+		if (! onGroupsPage()) {
+			click(By.linkText("groups"));
+		}
 	}
 
+	private boolean onGroupsPage() {
+		return (driver.findElements(By.xpath("//input[@value='New group']")).size() > 0);
+	}
 }

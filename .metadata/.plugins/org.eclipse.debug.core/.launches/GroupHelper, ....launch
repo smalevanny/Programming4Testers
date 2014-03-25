@@ -8,8 +8,8 @@
 <listEntry value="com.example.tests.TestBase"/>
 <listEntry value="com.example.tests.ContactModification"/>
 <listEntry value="com.example.tests.GroupData"/>
-<listEntry value="com.example.fw.NavigationHelper"/>
 <listEntry value="com.example.tests.ContactData"/>
+<listEntry value="com.example.fw.NavigationHelper"/>
 <listEntry value="com.example.fw.GroupHelper"/>
 <listEntry value="com.example.tests.GroupModification"/>
 <listEntry value="com.example.tests.GroupCreationValid"/>

@@ -10,4 +10,20 @@
 <fullyQualifiedTypeName name="org.testng.annotations.AfterSuite"/>
 <fullyQualifiedTypeName name="org.testng.annotations.BeforeClass"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterClass"/>
+<fullyQualifiedTypeName name="org.testng.Assert"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="org.testng.asserts.Assertion"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.If"/>
+<fullyQualifiedTypeName name="sun.java2d.loops.ProcessPath.EndSubPathHandler"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.example.tests.GroupData"/>
+<fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="com.example.tests.ContactData"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By.ByXPath"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.example.utils.ListOf"/>
+<fullyQualifiedTypeName name="com.example.utils.SortedListOf"/>
 </qualifiedTypeNameHistroy>
