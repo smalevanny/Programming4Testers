@@ -17,13 +17,19 @@
 <fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.If"/>
 <fullyQualifiedTypeName name="sun.java2d.loops.ProcessPath.EndSubPathHandler"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.example.tests.GroupData"/>
 <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="com.example.tests.ContactData"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By.ByXPath"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.example.utils.ListOf"/>
 <fullyQualifiedTypeName name="com.example.utils.SortedListOf"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.example.tests.GroupDataGenerator"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="com.thoughtworks.xstream.XStream"/>
 </qualifiedTypeNameHistroy>

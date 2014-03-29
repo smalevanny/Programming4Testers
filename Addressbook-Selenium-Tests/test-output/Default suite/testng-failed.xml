@@ -5,15 +5,10 @@
     <classes>
       <class name="com.example.tests.ContactCreationValid">
         <methods>
-          <include name="tearDown"/>
+          <include name="testContactCreation"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.example.tests.ContactCreationValid -->
-      <class name="com.example.tests.ContactRemoval">
-        <methods>
-          <include name="deleteSomeContact"/>
-        </methods>
-      </class> <!-- com.example.tests.ContactRemoval -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

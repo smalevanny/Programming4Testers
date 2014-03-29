@@ -13,5 +13,10 @@
     "location": "C:\\Users\\User\\Desktop\\ProgrammingForTesters\\selenium-2.40.0\\selenium-server-standalone-2.40.0.jar",
     "status": "UNRESOLVED",
     "error": "No call model found for \u0027C:\\Users\\User\\Desktop\\ProgrammingForTesters\\selenium-2.40.0\\selenium-server-standalone-2.40.0.jar\u0027. Neither fingerprint \u0027165f54ca53e5eefc6f27c26ac03d18bae99a544e\u0027 nor symbolic name \u0027org.yaml.snakeyaml\u0027 are known."
+  },
+  "C:\\Users\\User\\Desktop\\ProgrammingForTesters\\xstream-1.4.7.jar": {
+    "location": "C:\\Users\\User\\Desktop\\ProgrammingForTesters\\xstream-1.4.7.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\User\\Desktop\\ProgrammingForTesters\\xstream-1.4.7.jar\u0027. Neither fingerprint \u0027bce3282142b63068260f021fcbe48b72e8d71a1a\u0027 nor symbolic name \u0027xstream\u0027 are known."
   }
 }
