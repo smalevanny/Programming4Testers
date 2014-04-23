@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import com.example.tests.ContactData;
 import com.example.utils.SortedListOf;
 
-public class ContactHelper extends HelperBase{
+public class ContactHelper extends WebDriverHelperBase{
 
 	public ContactHelper(ApplicationManager manager) {
 		super(manager);
@@ -20,7 +20,7 @@ public class ContactHelper extends HelperBase{
 		fillContactForm(contact);
 	    submitContactCreation();
 	    returnToMainPage();
-	    rebuildCashe();
+	    manager.getModel().addContact(contact);
 		return this;
 	}
 	
@@ -29,7 +29,7 @@ public class ContactHelper extends HelperBase{
 		fillContactForm(contact);
 		submitContactUpdate();
 		returnToMainPage();
-		rebuildCashe();
+		manager.getModel().removeContact(index).addContact(contact);
 		return this;
 	}
 	
@@ -37,21 +37,14 @@ public class ContactHelper extends HelperBase{
 		initContactUpdate(index);
 	    submitContactDeletion();
 	    returnToMainPage();
-	    rebuildCashe();
+	    manager.getModel().removeContact(index);
 		return this;
 	}
 	
-	private SortedListOf<ContactData> cashedContacts;
+
 	
-	public SortedListOf<ContactData> getContacts() {
-		if (cashedContacts == null) {
-			rebuildCashe();
-		}
-		return cashedContacts;
-	}
-	
-	private void rebuildCashe() {
-		cashedContacts = new SortedListOf<ContactData>();
+	public SortedListOf<ContactData> getUIContacts() {
+		SortedListOf<ContactData> contacts = new SortedListOf<ContactData>();
 		manager.navigateTo().mainPage();
 		List<WebElement> checkboxes = driver.findElements(By.name("selected[]"));
 		for (WebElement checkbox : checkboxes) {
@@ -62,8 +55,9 @@ public class ContactHelper extends HelperBase{
 			if (!fullname.endsWith(" ")) {
 				name = initials[1];
 			}
-			cashedContacts.add(new ContactData().withLastName(name));
+			contacts.add(new ContactData().withLastName(name));
 		}
+		return contacts;
 	}
 
 //------------------------------------------------------------------------------------------------------
@@ -90,7 +84,6 @@ public class ContactHelper extends HelperBase{
 
 	public ContactHelper submitContactCreation() {
 		click(By.name("submit"));
-		cashedContacts = null;
 		return this;
 	}
 
@@ -103,18 +96,17 @@ public class ContactHelper extends HelperBase{
 
 	public ContactHelper submitContactDeletion() {
 		click(By.xpath("//input[@value='Delete']"));
-		cashedContacts = null;
 		return this;
 	}
 
 	public ContactHelper initContactUpdate(int index) {
-		click(By.xpath("//tr[" + (index+2) + "]/td[7]"));
+//		click(By.xpath("//tr[" + (index+2) + "]/td[7]"));
+		click(By.xpath("(//img[@alt='Edit'])[" + (index+1) + "]"));
 		return this;
 	}
 
 	public ContactHelper submitContactUpdate() {
 		click(By.xpath("//input[@value='Update']"));
-		cashedContacts = null;
 		return this;
 	}
 

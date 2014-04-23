@@ -1,93 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47135" started-at="2014-04-04T06:54:28Z" finished-at="2014-04-04T06:55:15Z">
+  <suite name="Default suite" duration-ms="69571" started-at="2014-04-23T20:15:39Z" finished-at="2014-04-23T20:16:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47135" started-at="2014-04-04T06:54:28Z" finished-at="2014-04-04T06:55:15Z">
-      <class name="com.example.tests.ContactRemoval">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.tests.ContactRemoval@b52f79]" name="setUp" is-config="true" duration-ms="13501" started-at="2014-04-04T10:54:28Z" finished-at="2014-04-04T10:54:41Z">
+    <test name="Default test" duration-ms="69571" started-at="2014-04-23T20:15:39Z" finished-at="2014-04-23T20:16:49Z">
+      <class name="com.example.tests.GroupModification">
+        <test-method status="PASS" signature="modifySomeGroup(com.example.tests.GroupData)[pri:0, instance:com.example.tests.GroupModification@18ab963]" name="modifySomeGroup" duration-ms="2696" started-at="2014-04-24T00:16:27Z" data-provider="randomValidGroupGenerator" finished-at="2014-04-24T00:16:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GroupData [name=test1999093190, header=, footer=test363204694]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifySomeGroup -->
+        <test-method status="PASS" signature="modifySomeGroup(com.example.tests.GroupData)[pri:0, instance:com.example.tests.GroupModification@18ab963]" name="modifySomeGroup" duration-ms="2362" started-at="2014-04-24T00:16:30Z" data-provider="randomValidGroupGenerator" finished-at="2014-04-24T00:16:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GroupData [name=, header=test488247888, footer=test1412801133]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifySomeGroup -->
+        <test-method status="PASS" signature="modifySomeGroup(com.example.tests.GroupData)[pri:0, instance:com.example.tests.GroupModification@18ab963]" name="modifySomeGroup" duration-ms="2150" started-at="2014-04-24T00:16:32Z" data-provider="randomValidGroupGenerator" finished-at="2014-04-24T00:16:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GroupData [name=, header=test855852711, footer=]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifySomeGroup -->
+        <test-method status="PASS" signature="modifySomeGroup(com.example.tests.GroupData)[pri:0, instance:com.example.tests.GroupModification@18ab963]" name="modifySomeGroup" duration-ms="2228" started-at="2014-04-24T00:16:34Z" data-provider="randomValidGroupGenerator" finished-at="2014-04-24T00:16:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GroupData [name=test-898533644, header=test200278550, footer=test238696192]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifySomeGroup -->
+        <test-method status="PASS" signature="modifySomeGroup(com.example.tests.GroupData)[pri:0, instance:com.example.tests.GroupModification@18ab963]" name="modifySomeGroup" duration-ms="2211" started-at="2014-04-24T00:16:36Z" data-provider="randomValidGroupGenerator" finished-at="2014-04-24T00:16:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GroupData [name=, header=test-439201345, footer=test2088311291]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifySomeGroup -->
+      </class> <!-- com.example.tests.GroupModification -->
+      <class name="com.example.tests.GroupCreationValid">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.tests.GroupCreationValid@1ee5b36]" name="setUp" is-config="true" duration-ms="2964" started-at="2014-04-24T00:15:39Z" finished-at="2014-04-24T00:15:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="deleteSomeContact()[pri:0, instance:com.example.tests.ContactRemoval@b52f79]" name="deleteSomeContact" duration-ms="33228" started-at="2014-04-04T10:54:41Z" finished-at="2014-04-04T10:55:14Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//input[@value='Delete']"}
-Command duration or timeout: 30.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.40.0', revision: 'fbe29a9', time: '2014-02-19 20:54:28'
-System info: host: 'User-PC', ip: '192.168.1.8', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_51'
-Session ID: bc98ae20-cf64-448d-9dd4-a51ae32151d4
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=28.0}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//input[@value='Delete']"}
-Command duration or timeout: 30.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.40.0', revision: 'fbe29a9', time: '2014-02-19 20:54:28'
-System info: host: 'User-PC', ip: '192.168.1.8', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_51'
-Session ID: bc98ae20-cf64-448d-9dd4-a51ae32151d4
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=28.0}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
-	at com.example.fw.HelperBase.click(HelperBase.java:65)
-	at com.example.fw.ContactHelper.submitContactDeletion(ContactHelper.java:105)
-	at com.example.fw.ContactHelper.deleteContact(ContactHelper.java:38)
-	at com.example.tests.ContactRemoval.deleteSomeContact(ContactRemoval.java:24)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":"//input[@value='Delete']"}
-Build info: version: '2.40.0', revision: 'fbe29a9', time: '2014-02-19 20:54:28'
-System info: host: 'User-PC', ip: '192.168.1.8', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_51'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/User/AppData/Local/Temp/anonymous463786787955533789webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8904)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/User/AppData/Local/Temp/anonymous463786787955533789webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:396)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="testGroupCreation(com.example.tests.GroupData)[pri:0, instance:com.example.tests.GroupCreationValid@1ee5b36]" name="testGroupCreation" duration-ms="1679" started-at="2014-04-24T00:16:39Z" data-provider="groupsFromFile" finished-at="2014-04-24T00:16:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GroupData [name=test-739870091, header=, footer=test1543640303]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteSomeContact -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.tests.ContactRemoval@b52f79]" name="tearDown" is-config="true" duration-ms="374" started-at="2014-04-04T10:55:14Z" finished-at="2014-04-04T10:55:15Z">
+        </test-method> <!-- testGroupCreation -->
+        <test-method status="PASS" signature="testGroupCreation(com.example.tests.GroupData)[pri:0, instance:com.example.tests.GroupCreationValid@1ee5b36]" name="testGroupCreation" duration-ms="2157" started-at="2014-04-24T00:16:41Z" data-provider="groupsFromFile" finished-at="2014-04-24T00:16:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GroupData [name=test-1320534168, header=test555315269, footer=]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupCreation -->
+        <test-method status="PASS" signature="testGroupCreation(com.example.tests.GroupData)[pri:0, instance:com.example.tests.GroupCreationValid@1ee5b36]" name="testGroupCreation" duration-ms="1745" started-at="2014-04-24T00:16:43Z" data-provider="groupsFromFile" finished-at="2014-04-24T00:16:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GroupData [name=test1573066587, header=test1017795177, footer=test543533031]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupCreation -->
+        <test-method status="PASS" signature="testGroupCreation(com.example.tests.GroupData)[pri:0, instance:com.example.tests.GroupCreationValid@1ee5b36]" name="testGroupCreation" duration-ms="2005" started-at="2014-04-24T00:16:45Z" data-provider="groupsFromFile" finished-at="2014-04-24T00:16:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GroupData [name=, header=test-1291799785, footer=test-239015983]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupCreation -->
+        <test-method status="PASS" signature="testGroupCreation(com.example.tests.GroupData)[pri:0, instance:com.example.tests.GroupCreationValid@1ee5b36]" name="testGroupCreation" duration-ms="1452" started-at="2014-04-24T00:16:47Z" data-provider="groupsFromFile" finished-at="2014-04-24T00:16:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GroupData [name=test-1058963055, header=test2122533042, footer=]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupCreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.tests.GroupCreationValid@1ee5b36]" name="tearDown" is-config="true" duration-ms="390" started-at="2014-04-24T00:16:48Z" finished-at="2014-04-24T00:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.example.tests.ContactRemoval -->
+      </class> <!-- com.example.tests.GroupCreationValid -->
+      <class name="com.example.tests.GroupRemoval">
+        <test-method status="PASS" signature="deleteSomeGroup()[pri:0, instance:com.example.tests.GroupRemoval@11c2812]" name="deleteSomeGroup" duration-ms="45119" started-at="2014-04-24T00:15:42Z" finished-at="2014-04-24T00:16:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSomeGroup -->
+      </class> <!-- com.example.tests.GroupRemoval -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
